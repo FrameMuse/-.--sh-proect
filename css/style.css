@@ -1,0 +1,177 @@
+/* Стили Поумолчанию */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    transition: .3s ease;
+}
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+input, button {
+    border: 0;
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: #303030;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.line-v {
+    border-left: 1px solid rgba(0,0,0,0.3);
+    margin-left: 40px;
+    height: 50%;
+    margin-top: 3%;
+    float: left;
+}
+
+/* Стили Хеадера */
+
+header {
+    background: #CCC;
+    padding: 100px;
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    color: #303030;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #F5F5F5;
+    box-shadow: 0 0 30px -10px black;
+}
+.logo {
+    background: #E0E0E0; 
+    display: inline-flex;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Righteous', Arial, sans-serif;
+    border-top: 2px solid #474747;
+}
+.menu {
+    display: flex;
+    padding: 5px;
+    float: right;
+}
+.menu > a {
+    font-family: Arial, sans-serif;
+    transition: .3s ease;
+    color: #606060;
+    padding: 12px;
+    border-radius: 1px;
+    font-size: 15px;
+}
+.menu > a:hover {
+    background: rgba(0,0,0,0.05);
+    text-decoration: none;
+}
+main {
+    padding: 10px;
+}
+.content1, .content2 {
+    padding: 50px;
+    box-shadow: 0 0 25px -10px;
+    background: white;
+    display: inline-block;
+}
+.content1 {
+    width: 75%;
+}
+.content2 {
+    background: E6EAEF;
+    width: 23.33333%;
+    float: right;
+}
+main h2 {
+    padding-bottom: 10px;
+}
+.article {
+    padding: 25px;
+}
+.begin-A h3 {
+    padding: 10px 0;
+    display: table;
+    border-bottom: 2px solid #2a384173
+}
+.begin-A p {
+    padding: 0 10px;
+    padding-top: 20px;
+    display: inline-block;
+    width: 70%;
+}
+.begin-A img {
+    width: 230px;
+    float: right;
+    display: inline-block;
+    box-shadow: 0 0 15px -4px;
+}
+.read-more {
+    padding: 0 10px;
+    color: #121b21;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.read-more:hover {  
+    text-decoration: none;
+    color: #CCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0 0 15px -6px;
+    background: white;
+    z-index: 2;
+}
+.links {
+    display: inline-grid;
+    padding: 0 40px;
+    height: 100%;
+}
+.links h3 {
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 5px;
+    color: #333333;
+}
+.links a {
+    padding: 5px 0;
+    color: #6d6d6d;
+    font-size: 14px;
+}
+footer img {
+    height: 100px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 100%;
+    float: left;
+    box-shadow: 0 0 50px -8px;
+}
